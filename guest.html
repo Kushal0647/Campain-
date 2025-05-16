@@ -1,0 +1,53 @@
+
+<html>
+
+<head>
+
+<title>Guestbook</title>
+
+</head>
+
+<body bgcolor="white" text="black">
+
+<div align="center">
+
+<h2><u>Guest Book</u><hr width="750"></h2>
+
+<form name="myform" method="post" action="mailto:ccollege@wlink.com.np" enctype="text/plain" onSubmit="return validate();location.href='thanks.html'">
+
+<p>
+	First Name *<input type="text" name="fname" size="20">
+	&nbsp;&nbsp;&nbsp;Middle Name&nbsp;&nbsp;<input type="text" name="mname" size="20">
+	&nbsp;&nbsp;&nbsp;Last Name&nbsp; *<input type="text" name="lname" size="20">
+</p>
+
+<p>
+	Phone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *<input type="text" name="yphone" size="20">
+	&nbsp;&nbsp;&nbsp;Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *<input type="text" name="yemail" size="56">
+</p>
+
+<p>
+	Post Box&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="ypobox" size="20">
+	&nbsp;&nbsp;&nbsp;Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *<input type="text" name="yadd" size="56">
+</p>
+  
+<br>
+
+<p>
+	<b>Order Information/Message/Comment</b> *<br>
+	<textarea rows="8" name="yorder" cols="92"></textarea>
+</p>
+<h3>The fields with the astric (*) sign are not allowed to left blank</h3>
+<p align="center">
+	<input type="button" value="send" onClick="validation()"> 
+	<input type="reset" value="Reset" name="B2">
+ 
+</p>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
